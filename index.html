@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Arianda's Story ✨</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <main id="story">
+
+
+        <!-- =================================================
+             SCENE 1 — MAGICAL SKY
+        ================================================== -->
+
+        <section
+            class="sky"
+            id="skyScene"
+        >
+
+            <!-- STARS -->
+
+            <div
+                class="stars"
+                id="stars"
+            ></div>
+
+
+            <!-- MOON -->
+
+            <div class="moon"></div>
+
+
+            <!-- MAGIC PARTICLES -->
+
+            <div
+                class="magic"
+                id="magic"
+            ></div>
+
+
+            <!-- CLOUDS -->
+
+            <div class="cloud cloud-1"></div>
+
+            <div class="cloud cloud-2"></div>
+
+            <div class="cloud cloud-3"></div>
+
+            <div class="cloud cloud-4"></div>
+
+
+            <!-- =================================================
+                 CASTLE
+            ================================================== -->
+
+            <div class="castle">
+
+                <div class="castle-glow"></div>
+
+
+                <div class="castle-body">
+
+
+                    <!-- LEFT TOWER -->
+
+                    <div class="tower tower-left">
+
+                        <div class="roof"></div>
+
+                        <div class="window"></div>
+
+                    </div>
+
+
+                    <!-- MIDDLE TOWER -->
+
+                    <div class="tower tower-middle">
+
+                        <div class="roof"></div>
+
+                        <div class="window"></div>
+
+                    </div>
+
+
+                    <!-- RIGHT TOWER -->
+
+                    <div class="tower tower-right">
+
+                        <div class="roof"></div>
+
+                        <div class="window"></div>
+
+                    </div>
+
+
+                    <!-- CASTLE CENTER -->
+
+                    <div class="castle-center">
+
+                        <div class="door"></div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 OPENING TEXT
+            ================================================== -->
+
+            <div
+                class="opening-text"
+                id="openingText"
+            >
+
+                <p>
+                    Every fairy tale
+                </p>
+
+                <p>
+                    begins with a little magic...
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 BEGIN BUTTON
+            ================================================== -->
+
+            <button
+                id="beginButton"
+                type="button"
+            >
+
+                Begin the story
+
+                <span>✦</span>
+
+            </button>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             SCENE 2 — ARIANDA
+        ================================================== -->
+
+        <section
+            class="angel-scene"
+            id="angelScene"
+        >
+
+
+            <!-- =================================================
+                 FOREST BACKGROUND
+            ================================================== -->
+
+            <div
+                class="forest-background"
+            ></div>
+
+
+            <!-- =================================================
+                 ATMOSPHERIC EFFECTS
+            ================================================== -->
+
+            <div
+                class="forest-mist"
+            ></div>
+
+
+            <div
+                class="forest-light"
+            ></div>
+
+
+            <!-- =================================================
+                 MAGICAL PARTICLES
+            ================================================== -->
+
+            <div
+                id="angelParticles"
+            ></div>
+
+
+
+            <!-- =================================================
+                 STORY TEXT
+            ================================================== -->
+
+            <div
+                class="angel-story-text"
+                id="angelStoryText"
+            >
+
+                <div class="story-line">
+
+                    Once upon a time...
+
+                </div>
+
+
+                <div
+                    class="story-line second-line"
+                >
+
+                    there lived an angel named
+
+                </div>
+
+
+                <div class="angel-name">
+
+                    Arianda
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 ARIANDA
+                 
+                 The entire character + wings are
+                 contained inside ONE PNG.
+            ================================================== -->
+
+            <div
+                class="angel-container"
+                id="angelContainer"
+            >
+
+                <img
+                    src="images/arianda.png"
+                    class="angel-character"
+                    alt="Arianda"
+                >
+
+            </div>
+
+
+
+            <!-- =================================================
+                 CONTINUE BUTTON
+            ================================================== -->
+
+            <button
+                id="continueButton"
+                class="continue-button"
+                type="button"
+            >
+
+                Continue the story ✦
+
+            </button>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =================================================
+         NARRATION AUDIO
+    ================================================== -->
+
+    <audio
+        id="narration"
+        preload="auto"
+    >
+
+        <source
+            src="audio/story.wav"
+            type="audio/wav"
+        >
+
+        Your browser does not support audio playback.
+
+    </audio>
+
+
+
+    <!-- =================================================
+         JAVASCRIPT
+    ================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
